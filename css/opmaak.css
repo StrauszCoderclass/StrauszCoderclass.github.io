@@ -5,7 +5,6 @@
 body {
   background-color: #EBFAA3;
 }
-
 #contacts {list-style-type: none;}
 #section1 {
   top: 30px;
@@ -20,11 +19,17 @@ body {
 }
 .navigation {
   display: inline-block;
+  width: 85px;
+  color: #373737;
+  background-color: #A4E56F;
+  border: solid black 1px;
+  border-radius: 5px;
+  border-top-left-radius: 0px;
+  margin: 5px;
 }
 .link {
   text-decoration: none;
   color: #000000;
-  width: 120px
 }
 .link:hover {font-weight: bold;}
 .maintext {
@@ -40,7 +45,7 @@ body {
   background-color: #A4E56F;
   border: solid black 1px;
   border-radius: 5px;
-  border-top-left-radius: 0px
+  border-top-left-radius: 0px;
 }
 .titel {
   color: #000000;
