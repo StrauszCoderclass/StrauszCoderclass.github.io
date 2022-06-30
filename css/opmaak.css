@@ -5,13 +5,38 @@
 body {
   background-color: #EBFAA3;
 }
+iframe {
+  border: 0px;
+}
 #contacts {list-style-type: none;}
-#section1 {
+#projects-section1 {
   top: 30px;
+  height: 750px;
 }
 #homepage {
   margin-left: 0px;
   padding-left: 0px;
+}
+#spotifystats {
+  text-decoration: none;
+  color: #000000;
+}
+.topbands{
+  list-style-type: circle;
+  width: 200px;
+}
+.topartists{
+  list-style-type: decimal;
+  width: 200px;
+}
+.float-container {
+    padding: 20px;
+}
+.float-child {
+    width: 44%;
+    float: left;
+    height: 537px;
+    padding: 20px;
 }
 .mp0 {
   margin-left: 0px;
@@ -63,7 +88,7 @@ body {
 footer h3 {
   font-weight: normal;
   font-size: 90%;
-  position: absolute;
+  position: fixed;
   bottom:0;
   right:0;
 }
